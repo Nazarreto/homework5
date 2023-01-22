@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cont {
+  width: 100vw;
+  height: 100vh;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  padding-top: 35px;
+}
+
+.navigation .item {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #131313;
+  margin-right: 69px;
+  cursor: pointer;
+}
+
+.navigation .item a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation .active a {
+  color: #2785f7;
+}
+
+.zxc {
+  background: silver;
+  height: 85vh;
+  width: 98%;
+  margin: 10px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.side {
+  height: 408px;
+  width: 75px;
+  background: white;
+  margin-left: 25px;
+  margin-top: 212px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+i {
+  font-size: 45px;
+  margin: 15px;
+}
+
+i:hover {
+  background: #2785f7;
+  cursor: pointer;
+}
+
+.box1 {
+  width: 850px;
+  height: 130px;
+  background: white;
+  margin-top: 80px;
+  margin-left: 25px;
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  font-family: bahij;
+  font-size: 25px;
+}
+
+.box2 {
+  width: 950px;
+  height: 230px;
+  background: white;
+  margin-top: 50px;
+  margin-left: 25px;
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  font-family: bahij;
+  font-size: 25px;
+}
+
+.box3 {
+  width: 950px;
+  height: 230px;
+  background: white;
+  margin-top: 50px;
+  margin-left: 25px;
+  border-radius: 25px;
+  font-family: bahij;
+  font-size: 25px;
+}
+
+.box4 {
+  width: 850px;
+  height: 130px;
+  background: white;
+  margin-top: 80px;
+  margin-left: -95px;
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  font-family: bahij;
+  font-size: 25px;
+}
+
+.box5 {
+  width: 720px;
+  height: 510px;
+  background: white;
+  margin-top: 50px;
+  margin-left: 35px;
+  border-radius: 25px;
+  font-family: bahij;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
+.box3 img {
+  height: 170px;
+  width: 135px;
+  padding-left: 45px;
+  padding-top: 55px;
+  float: left;
+}
+
+.text {
+  padding-top: 75px;
+}
+
+.box5 img {
+  height: 150px;
+  margin: 20px;
+}
+
+@font-face {
+  font-family: bahij;
+  src: url(./assets/fonts/bahij-sultannahia.ttf);
+}
+
+@font-face {
+  font-family: Chronica;
+  src: url(./assets/fonts/ChronicaPro-Regular.ttf);
+}
+
+.firstBlock {
+  display: flex;
+  justify-content: center;
+}
+
+.qwe {
+  height: 250px;
+  width: 300px;
+  background: seashell;
+  margin: 45px;
+  border-radius: 25px;
+  padding-top: 25px;
+}
+
+.secondBlock {
+  display: flex;
+  justify-content: center;
+}
+
+.qwe img {
+  height: 115px;
+  border-radius: 50%;
+}
+
+.qwe {
+  text-align: center;
+  transition: 1s linear all;
+}
+
+.rere {
+  padding: 35px;
+}
+
+.qwe:hover {
+  background: #2785f7;
+  cursor: pointer;
+}
+
+.qwerty {
+  margin: 0 auto;
+  margin-top: 150px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.tete {
+  width: 1000px;
+  height: 50px;
+  margin: 25px;
+}
+
+.tete span {
+  padding-left: 150px;
+}
+
+.qwerty i {
+  font-size: 35px;
+}
+
+.q {
+  padding-left: 136px;
+}
+
+.w {
+  padding-left: 159px;
+}
+
+.e {
+  padding-left: 239px;
+}
+
+.r {
+  padding-left: 161px;
+}
+
+.tete:hover {
+  background: whitesmoke;
+}
